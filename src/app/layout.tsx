@@ -186,11 +186,11 @@ export default function RootLayout({
               </div>
 
               {/* BOTÓN COMPARTIR */}
-              {/* <div className="flex justify-end">
+              <div className="flex justify-end">
                 <button className="px-4 py-2 bg-[var(--primary)] text-white font-semibold rounded-lg text-sm hover:opacity-90 transition-opacity">
                   Compartir
                 </button>
-              </div> */}
+              </div>
             </header>
 
             {/* CONTENIDO DE LA PÁGINA ACTUAL */}

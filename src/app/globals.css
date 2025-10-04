@@ -2,12 +2,18 @@
 
 :root {
   /* --- PALETA DE COLORES PRINCIPAL (Tema Beige/Dorado) --- */
-  --background: #f5f0e8;      /* Fondo beige claro */
-  --foreground: #3d3d3d;      /* Texto principal gris oscuro */
-  --surface: #d4a574;         /* Superficies dorado/caramelo (header, sidebar) */
-  --primary: #c89550;         /* Dorado medio para botones y acentos */
-  --text-secondary: #6b5d4f;  /* Texto secundario marrón */
-  --border: #c4b5a0;          /* Color de los bordes */
+  --background: #f5f0e8;
+  /* Fondo beige claro */
+  --foreground: #3d3d3d;
+  /* Texto principal gris oscuro */
+  --surface: #d4a574;
+  /* Superficies dorado/caramelo (header, sidebar) */
+  --primary: #c89550;
+  /* Dorado medio para botones y acentos */
+  --text-secondary: #6b5d4f;
+  /* Texto secundario marrón */
+  --border: #c4b5a0;
+  /* Color de los bordes */
 }
 
 @theme inline {
