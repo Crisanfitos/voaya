@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  /* --- PALETA DE COLORES PRINCIPAL (Tema Beige/Dorado) --- */
-  --background: #f5f0e8;      /* Fondo beige claro */
-  --foreground: #3d3d3d;      /* Texto principal gris oscuro */
-  --surface: #d4a574;         /* Superficies dorado/caramelo (header, sidebar) */
-  --primary: #c89550;         /* Dorado medio para botones y acentos */
-  --text-secondary: #6b5d4f;  /* Texto secundario marrón */
-  --border: #c4b5a0;          /* Color de los bordes */
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Colores del tema claro (si se usa) */
+  --surface: #ffffff;
+  --primary: #f59e0b;
+  --text-secondary: #6b7280;
+  --border: #e5e7eb;
 }
 
 @theme inline {
@@ -15,20 +15,22 @@
   --color-foreground: var(--foreground);
 }
 
-/* Eliminar o comentar el tema oscuro automático */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #1c1c1c;
-    --foreground: #f9fafb;
-    --surface: #2b2b2b;
-    --primary: #eab308;
-    --text-secondary: #9ca3af;
-    --border: #3f3f46;
+    /* --- PALETA DE COLORES DEL TEMA OSCURO --- */
+    /* Modifica estos valores para cambiar el tema */
+    --background: #1c1c1c;      /* Fondo principal */
+    --foreground: #f9fafb;      /* Texto principal (equivale a --text-primary) */
+    --surface: #2b2b2b;        /* Superficies como headers, sidebars */
+    --primary: #eab308;        /* Amarillo/Dorado de acento */
+    --text-secondary: #9ca3af; /* Texto secundario (gris claro) */
+    --border: #3f3f46;         /* Color de los bordes */
   }
-} */
+}
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
